@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-top: 10px;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+    color: #777;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Section Titles */
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+/* Contact Info */
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+/* Work Experience & Education */
+.job, .school {
+    margin-bottom: 20px;
+}
+
+.job h3, .school h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.job p, .school p {
+    margin: 5px 0;
+    color: #777;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Skills */
+.skills ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
